@@ -1,0 +1,199 @@
+{
+  "financial_aid_options": [
+    {
+      "id": "moe-tuition-grant",
+      "name": "MOE Tuition Grant Scheme (TGS)",
+      "type": "Government Subsidy",
+      "category": "need-based",
+      "amount": "Up to 75% tuition subsidy",
+      "description": "Government subsidy for Singapore Citizens and PRs studying at autonomous universities (NUS, NTU, SMU, SUTD, SIT, SUSS). Significantly reduces tuition fees.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen", "Permanent Resident"],
+        "level": ["degree", "diploma"],
+        "requirements": "Automatic for citizens. PRs must serve 3-year bond after graduation."
+      },
+      "typical_savings": {
+        "citizen_degree": "S$24,000 per year (annual tuition reduced from S$32,000 to S$8,200)",
+        "pr_degree": "S$20,200 per year (reduced to S$11,800)"
+      },
+      "application_process": "Automatic application when accepting university offer. No separate application needed.",
+      "bond_requirement": "PRs and international students must work in Singapore for 3 years after graduation",
+      "website": "https://www.moe.gov.sg/financial-matters/awards-scholarships/tuition-grant",
+      "singapore_context": "Core government initiative to make education affordable for citizens. Reduces financial burden significantly."
+    },
+    {
+      "id": "moe-bursary",
+      "name": "MOE Bursary",
+      "type": "Bursary",
+      "category": "need-based",
+      "amount": "S$1,000 - S$3,800 per year",
+      "description": "Need-based bursary for Singapore Citizens from lower-income families. Amount varies based on household income.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen"],
+        "level": ["degree", "diploma"],
+        "requirements": "Per Capita Income (PCI) ≤ S$3,100 or Gross Household Income (GHI) ≤ S$9,000"
+      },
+      "income_bands": {
+        "tier1": "PCI ≤ S$690: S$3,800/year",
+        "tier2": "PCI S$691-S$1,000: S$3,200/year",
+        "tier3": "PCI S$1,001-S$1,500: S$2,600/year",
+        "tier4": "PCI S$1,501-S$2,100: S$2,000/year",
+        "tier5": "PCI S$2,101-S$3,100: S$1,000/year"
+      },
+      "application_process": "Apply through university financial aid office. Submit income documents (payslips, tax statements).",
+      "bond_requirement": "None",
+      "website": "https://www.moe.gov.sg/financial-matters/financial-assistance",
+      "singapore_context": "Government's commitment to ensure no student is denied education due to financial difficulties"
+    },
+    {
+      "id": "university-bursaries",
+      "name": "University-Specific Bursaries",
+      "type": "Bursary",
+      "category": "need-based",
+      "amount": "S$1,500 - S$5,000 per year",
+      "description": "Additional bursaries offered by individual universities (NUS, NTU, SMU) for students facing financial need. Can be combined with MOE Bursary.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen", "Permanent Resident"],
+        "level": ["degree"],
+        "requirements": "Demonstrate financial need. Each university has specific criteria."
+      },
+      "examples": {
+        "nus": "NUS Bursary, NUS Grant: S$1,500-S$5,000/year based on household income",
+        "ntu": "NTU Study Grant, NTU Bursary: S$2,000-S$4,000/year",
+        "smu": "SMU Bursary: S$2,000-S$6,000/year for needy students"
+      },
+      "application_process": "Apply through respective university financial aid portals. Requires income documentation and personal statement.",
+      "bond_requirement": "None",
+      "website": "Check individual university websites",
+      "singapore_context": "Universities supplement government support to ensure accessibility for all qualified students"
+    },
+    {
+      "id": "skillsfuture-credit",
+      "name": "SkillsFuture Credit",
+      "type": "Skills Development",
+      "category": "universal",
+      "amount": "S$500 credit (one-time, with periodic top-ups)",
+      "description": "Government credit for Singaporeans aged 25+ to upskill. Can be used for approved courses, certifications, and training programs.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen"],
+        "level": ["any"],
+        "requirements": "Must be 25 years or older. Credit does not expire."
+      },
+      "what_it_covers": "Short courses, certifications (AWS, Coursera, Udemy approved courses), diploma programs, continuing education",
+      "application_process": "Check SkillsFuture Credit balance at MySkillsFuture portal. Use during course enrollment.",
+      "bond_requirement": "None",
+      "website": "https://www.skillsfuture.gov.sg/credit",
+      "singapore_context": "Part of Singapore's lifelong learning initiative. Encourages continuous skills upgrading in fast-changing economy."
+    },
+    {
+      "id": "cpf-education-scheme",
+      "name": "CPF Education Loan Scheme",
+      "type": "Loan",
+      "category": "universal",
+      "amount": "Use CPF Ordinary Account savings for tuition",
+      "description": "Singapore Citizens and PRs can use their CPF Ordinary Account savings to pay for tuition fees at approved institutions.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen", "Permanent Resident"],
+        "level": ["degree", "diploma"],
+        "requirements": "Have sufficient balance in CPF Ordinary Account. For approved institutions only."
+      },
+      "how_it_works": "Withdraw from your CPF OA to pay fees. Must repay principal + interest (2.5% p.a.) after graduation. Can also use parents'/spouse's CPF.",
+      "application_process": "Apply through CPF Board when paying tuition fees.",
+      "bond_requirement": "Must repay CPF with interest",
+      "website": "https://www.cpf.gov.sg/member/faq/education-loan",
+      "singapore_context": "Leverages Singapore's CPF system to provide low-interest education financing for citizens and PRs"
+    },
+    {
+      "id": "mendaki-tertiary-tuition-fee-subsidy",
+      "name": "MENDAKI Tertiary Tuition Fee Subsidy (TTFS)",
+      "type": "Community Grant",
+      "category": "need-based",
+      "amount": "Up to S$3,600 per year",
+      "description": "Financial assistance for Malay/Muslim students from lower-income families pursuing tertiary education.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen"],
+        "level": ["degree", "diploma"],
+        "requirements": "Malay/Muslim students. Household income ≤ S$3,000 or PCI ≤ S$750."
+      },
+      "application_process": "Apply through MENDAKI website with income documents and academic transcripts.",
+      "bond_requirement": "None",
+      "website": "https://www.mendaki.org.sg",
+      "singapore_context": "Community-based support for Malay/Muslim community's educational advancement"
+    },
+    {
+      "id": "cdac-bursary",
+      "name": "CDAC Bursary",
+      "type": "Community Grant",
+      "category": "need-based",
+      "amount": "S$300 - S$1,000 per year",
+      "description": "Financial assistance for Chinese students from lower-income families.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen"],
+        "level": ["degree", "diploma"],
+        "requirements": "Chinese students. Household income ≤ S$3,000 or PCI ≤ S$750."
+      },
+      "application_process": "Apply through CDAC with supporting documents",
+      "bond_requirement": "None",
+      "website": "https://www.cdac.org.sg",
+      "singapore_context": "Community organization supporting Chinese students' educational needs"
+    },
+    {
+      "id": "sinda-university-assistance",
+      "name": "SINDA University Assistance",
+      "type": "Community Grant",
+      "category": "need-based",
+      "amount": "S$300 - S$1,200 per year",
+      "description": "Financial aid for Indian students from lower-income families.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen"],
+        "level": ["degree", "diploma"],
+        "requirements": "Indian students. Household income ≤ S$3,500."
+      },
+      "application_process": "Apply via SINDA website",
+      "bond_requirement": "None",
+      "website": "https://www.sinda.org.sg",
+      "singapore_context": "Supports Indian community members' pursuit of higher education"
+    },
+    {
+      "id": "psea-study-loan",
+      "name": "Post-Secondary Education Account (PSEA) Loan",
+      "type": "Loan",
+      "category": "universal",
+      "amount": "Up to S$10,000 per year",
+      "description": "Government education loan for Singaporeans with favorable terms. Lower interest than commercial banks.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen"],
+        "level": ["degree", "diploma"],
+        "requirements": "Pursuing approved tertiary programs in Singapore"
+      },
+      "interest_rate": "5.5% per annum (below market rate)",
+      "repayment": "Starts after graduation. Up to 20 years repayment period.",
+      "application_process": "Apply through university or CPF Board",
+      "bond_requirement": "Loan repayment obligation",
+      "website": "https://www.moe.gov.sg/financial-matters/loans",
+      "singapore_context": "Government provides accessible credit for education with favorable terms compared to commercial loans"
+    },
+    {
+      "id": "university-scholarships",
+      "name": "University Merit Scholarships",
+      "type": "Scholarship",
+      "category": "merit-based",
+      "amount": "Full tuition + S$6,500/year allowance (varies)",
+      "description": "Merit-based scholarships awarded by NUS, NTU, SMU for outstanding students. Covers tuition and provides living allowance.",
+      "eligibility": {
+        "citizenship": ["Singapore Citizen", "Permanent Resident", "International"],
+        "level": ["degree"],
+        "requirements": "Excellent academic record (typically straight A's), strong CCA, leadership. Interview required."
+      },
+      "examples": {
+        "nus_scholarship": "NUS Global Merit Scholarship: Full tuition + S$6,000/year",
+        "ntu_scholarship": "NTU University Scholars Programme: Full tuition + S$6,500/year + overseas exposure",
+        "smu_scholarship": "SMU Scholarship: Full tuition + S$5,000/year allowance"
+      },
+      "application_process": "Apply during university application. Separate scholarship application required. Interview for shortlisted candidates.",
+      "bond_requirement": "Typically 3-6 year bond to work in Singapore",
+      "website": "Check respective university scholarship pages",
+      "singapore_context": "Universities attract top talent with comprehensive financial support. Bondable scholarships ensure talent retention in Singapore."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+google-cloud-aiplatform
+google-genai
+google-cloud-storage
+google-cloud-bigquery
+pydantic
+python-dotenv
+httpx
+pytest
+numpy
+streamlit
+jsonschema
+pyyaml
+requests

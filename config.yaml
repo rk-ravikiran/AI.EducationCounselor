@@ -1,0 +1,18 @@
+project:
+  name: sg-edu-counselor
+  description: Multi-agent Singapore education counseling platform
+  location: asia-southeast1
+models:
+  llm: gemini-2.5-flash-lite
+agents:
+  enabled:
+    # Core 3 agents with AI reasoning and curated data
+    - institutional_data
+    - career_guidance
+    - financial_aid
+    # Disabled: non-essential agents removed for focus
+    # - skill_gap
+    # - web_search  # Optional: disabled by default, curated data preferred
+orchestrator:
+  summarizer: true
+  max_program_results: 5

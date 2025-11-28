@@ -1,0 +1,204 @@
+{
+  "programs": [
+    {
+      "id": "nus-cs-bachelor",
+      "program_name": "Bachelor of Computing (Computer Science)",
+      "institution": "National University of Singapore (NUS)",
+      "level": "degree",
+      "field": "Computer Science",
+      "description": "Comprehensive computer science program covering algorithms, AI, software engineering, cybersecurity, and data science. Strong industry partnerships with Google, Microsoft, and local tech companies.",
+      "key_topics": ["Algorithms", "Artificial Intelligence", "Machine Learning", "Data Structures", "Software Engineering", "Cybersecurity", "Database Systems", "Cloud Computing"],
+      "requirements": {
+        "academic": "A-Level: AAA/AAB with H2 Math. Polytechnic: GPA 3.6+. IB: 38+ points",
+        "prerequisites": "Strong mathematics background required. H2 Math or equivalent.",
+        "portfolio": "Optional: Coding portfolio, hackathon participation, personal projects"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$8,200 per year",
+        "pr": "S$11,800 per year",
+        "international": "S$32,000 per year"
+      },
+      "duration": "4 years (8 semesters)",
+      "intake": "August (main), January (limited)",
+      "career_outcomes": "Software Engineer, AI Engineer, Data Scientist, Cybersecurity Analyst, Cloud Architect. Average starting salary: S$4,500-6,000/month",
+      "unique_features": "Industry attachment program, overseas exchange opportunities, Smart Nation initiatives involvement, strong alumni network in tech sector",
+      "singapore_context": "Aligned with Singapore's Smart Nation goals. High demand in local tech sector (Grab, Shopee, Sea Group, GovTech). Government actively recruiting CS graduates.",
+      "url": "https://www.comp.nus.edu.sg/programmes/ug/cs/"
+    },
+    {
+      "id": "ntu-cs-bachelor",
+      "program_name": "Bachelor of Engineering (Computer Science)",
+      "institution": "Nanyang Technological University (NTU)",
+      "level": "degree",
+      "field": "Computer Science",
+      "description": "Engineering-focused CS program with strong emphasis on AI, robotics, and IoT. Known for cutting-edge research labs and industry collaboration.",
+      "key_topics": ["Artificial Intelligence", "Data Science", "Robotics", "IoT", "Software Engineering", "Computer Networks", "Mobile Computing", "Game Development"],
+      "requirements": {
+        "academic": "A-Level: AAA/AAB with H2 Math and H2 Physics/Chemistry. Polytechnic: GPA 3.5+",
+        "prerequisites": "H2 Math, H2 Physics or Chemistry required",
+        "portfolio": "Bonus: STEM competitions, coding projects"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$8,200 per year",
+        "pr": "S$11,800 per year",
+        "international": "S$32,500 per year"
+      },
+      "duration": "4 years",
+      "intake": "August",
+      "career_outcomes": "AI Engineer, Robotics Engineer, Software Developer, IoT Specialist, Research Scientist. Starting: S$4,200-5,800/month",
+      "unique_features": "Access to NTU's world-class AI research labs, partnerships with industry leaders, overseas immersion programs, Renaissance Engineering Programme option",
+      "singapore_context": "Strong ties to Singapore's AI Singapore initiative. Many graduates join A*STAR, DSTA, and local tech unicorns.",
+      "url": "https://www.ntu.edu.sg/scse/admissions/programmes/undergraduate-programmes/bachelor-of-engineering-in-computer-science"
+    },
+    {
+      "id": "nus-biz-bachelor",
+      "program_name": "Bachelor of Business Administration",
+      "institution": "National University of Singapore (NUS)",
+      "level": "degree",
+      "field": "Business",
+      "description": "Prestigious business program with specializations in Finance, Marketing, Analytics, and Strategy. Strong links to Singapore's financial sector and MNCs.",
+      "key_topics": ["Finance", "Marketing", "Business Analytics", "Strategy", "Operations Management", "Entrepreneurship", "Organizational Behavior", "International Business"],
+      "requirements": {
+        "academic": "A-Level: AAA/AAB with H2 Math preferred. Polytechnic: GPA 3.7+. IB: 38+ points",
+        "prerequisites": "H2 Math recommended but not mandatory. Strong quantitative skills preferred.",
+        "portfolio": "Leadership roles, business competitions, entrepreneurial ventures valued"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$8,950 per year",
+        "pr": "S$12,950 per year",
+        "international": "S$33,500 per year"
+      },
+      "duration": "4 years",
+      "intake": "August",
+      "career_outcomes": "Financial Analyst, Management Consultant, Investment Banker, Marketing Manager, Business Analyst. Starting: S$4,000-6,500/month",
+      "unique_features": "Internship with top banks/MNCs, exchange programs with Wharton/INSEAD, entrepreneurship incubator access, BBA-Honours specializations",
+      "singapore_context": "Direct pipeline to Singapore's banking sector (DBS, UOB, OCBC), consulting firms (McKinsey, BCG, Bain), and regional MNC headquarters.",
+      "url": "https://bba.nus.edu.sg/"
+    },
+    {
+      "id": "smu-is-bachelor",
+      "program_name": "Bachelor of Science (Information Systems)",
+      "institution": "Singapore Management University (SMU)",
+      "level": "degree",
+      "field": "Information Systems",
+      "description": "Unique blend of business and technology. Focuses on enterprise systems, digital transformation, analytics, and IT consulting. City campus with strong industry connections.",
+      "key_topics": ["Business Analytics", "Enterprise Systems", "Digital Transformation", "IT Project Management", "Cybersecurity", "Cloud Computing", "FinTech", "Data Science"],
+      "requirements": {
+        "academic": "A-Level: AAB/ABB with H2 Math. Polytechnic: GPA 3.5+. IB: 36+ points",
+        "prerequisites": "H2 Math or strong mathematics background",
+        "portfolio": "Tech projects, business case competitions, leadership experience"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$9,300 per year",
+        "pr": "S$13,400 per year",
+        "international": "S$32,000 per year"
+      },
+      "duration": "4 years",
+      "intake": "August",
+      "career_outcomes": "Business Analyst, IT Consultant, Digital Transformation Manager, Data Analyst, Product Manager. Starting: S$4,200-5,800/month",
+      "unique_features": "12-week mandatory internship, SMU-X experiential learning projects with real companies, city campus networking advantages, strong alumni in consulting",
+      "singapore_context": "Located in the heart of Singapore's business district. Strong ties to banks, consulting firms, and government agencies undergoing digital transformation.",
+      "url": "https://scis.smu.edu.sg/bsc-information-systems"
+    },
+    {
+      "id": "nus-data-science-bachelor",
+      "program_name": "Bachelor of Science (Data Science and Analytics)",
+      "institution": "National University of Singapore (NUS)",
+      "level": "degree",
+      "field": "Data Science",
+      "description": "Interdisciplinary program combining statistics, computing, and domain knowledge. Prepares students for data-driven decision making roles across industries.",
+      "key_topics": ["Statistical Learning", "Machine Learning", "Big Data Technologies", "Data Visualization", "Predictive Analytics", "Deep Learning", "Natural Language Processing", "Business Intelligence"],
+      "requirements": {
+        "academic": "A-Level: AAA/AAB with H2 Math. Polytechnic: GPA 3.6+. IB: 38+ points",
+        "prerequisites": "H2 Math required. Programming experience helpful.",
+        "portfolio": "Data science projects, Kaggle competitions, research experience valued"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$8,200 per year",
+        "pr": "S$11,800 per year",
+        "international": "S$32,000 per year"
+      },
+      "duration": "4 years",
+      "intake": "August",
+      "career_outcomes": "Data Scientist, Machine Learning Engineer, Business Intelligence Analyst, Quantitative Analyst, AI Researcher. Starting: S$4,500-6,500/month",
+      "unique_features": "Industry capstone projects, access to NUS supercomputing resources, collaboration with AI Singapore, overseas exchange opportunities",
+      "singapore_context": "High demand across all sectors - finance, healthcare, logistics, government. Singapore positioning as regional AI hub creates strong job market.",
+      "url": "https://www.nus.edu.sg/registrar/academic-information-policies/undergraduate-students/special-programmes/degree-programmes/bachelor-of-science-data-science-and-analytics"
+    },
+    {
+      "id": "smu-accountancy-bachelor",
+      "program_name": "Bachelor of Accountancy",
+      "institution": "Singapore Management University (SMU)",
+      "level": "degree",
+      "field": "Accounting & Finance",
+      "description": "Premier accountancy program with CPA Singapore accreditation. Strong focus on analytics, forensics, and technology in accounting.",
+      "key_topics": ["Financial Accounting", "Audit", "Taxation", "Forensic Accounting", "Financial Analysis", "Data Analytics for Accountants", "Corporate Finance", "Risk Management"],
+      "requirements": {
+        "academic": "A-Level: AAB/ABB with H2 Math preferred. Polytechnic: GPA 3.6+",
+        "prerequisites": "Strong numerical and analytical skills",
+        "portfolio": "Accounting knowledge, business competitions, internships"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$9,300 per year",
+        "pr": "S$13,400 per year",
+        "international": "S$32,000 per year"
+      },
+      "duration": "4 years",
+      "intake": "August",
+      "career_outcomes": "Public Accountant, Auditor, Tax Consultant, Financial Analyst, Forensic Accountant. Starting: S$3,600-5,200/month",
+      "unique_features": "CPA Singapore accreditation pathway, Big 4 internship opportunities, integrated second major options, analytics focus",
+      "singapore_context": "Singapore is regional financial hub - high demand for accountants in Big 4 (Deloitte, PwC, EY, KPMG), local banks, and MNCs.",
+      "url": "https://accountancy.smu.edu.sg/bachelor-accountancy"
+    },
+    {
+      "id": "tp-fintech-diploma",
+      "program_name": "Diploma in FinTech",
+      "institution": "Temasek Polytechnic",
+      "level": "diploma",
+      "field": "FinTech",
+      "description": "Innovative program blending finance and technology. Covers blockchain, digital payments, robo-advisors, and financial analytics.",
+      "key_topics": ["Blockchain", "Digital Payments", "Financial Analytics", "Robo-Advisory", "RegTech", "InsurTech", "Mobile Banking", "Financial Data Science"],
+      "requirements": {
+        "academic": "O-Level: Net ELR2B2 of 15 points or better. Good Math and English.",
+        "prerequisites": "Interest in both finance and technology",
+        "portfolio": "Business or tech projects valued"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$2,900 per year (after subsidy)",
+        "pr": "S$6,200 per year",
+        "international": "S$11,000 per year"
+      },
+      "duration": "3 years",
+      "intake": "April",
+      "career_outcomes": "FinTech Associate, Digital Banking Officer, Blockchain Developer, Financial Data Analyst. Starting: S$2,300-3,300/month",
+      "unique_features": "Industry projects with banks and FinTech startups, overseas immersion, internships with financial institutions, blockchain certifications",
+      "singapore_context": "Singapore positioning as global FinTech hub. MAS actively supporting FinTech innovation. High demand from banks, FinTech startups, and financial services.",
+      "url": "https://www.tp.edu.sg/schools-and-courses/students/schools/bus/fintech.html"
+    },
+    {
+      "id": "rp-applied-ai-diploma",
+      "program_name": "Diploma in Applied Artificial Intelligence & Analytics",
+      "institution": "Republic Polytechnic",
+      "level": "diploma",
+      "field": "Artificial Intelligence",
+      "description": "Cutting-edge AI program focused on machine learning, computer vision, NLP, and AI ethics. Problem-based learning approach.",
+      "key_topics": ["Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "AI Ethics", "Data Analytics", "Python Programming", "AI Applications"],
+      "requirements": {
+        "academic": "O-Level: Net ELR2B2 of 15 points or better. Good Math and English.",
+        "prerequisites": "Strong analytical thinking and interest in AI",
+        "portfolio": "Coding projects, AI competitions"
+      },
+      "tuition_fees": {
+        "singapore_citizen": "S$2,900 per year (after subsidy)",
+        "pr": "S$6,200 per year",
+        "international": "S$11,000 per year"
+      },
+      "duration": "3 years",
+      "intake": "April",
+      "career_outcomes": "AI Developer, Machine Learning Engineer, Data Analyst, AI Consultant. Starting: S$2,400-3,400/month. Progression to university common.",
+      "unique_features": "Problem-based learning (RP's signature pedagogy), industry projects, AI certifications, access to GPU computing resources",
+      "singapore_context": "AI Singapore national initiative creating high demand. Graduates feed into tech companies, government agencies (GovTech, DSTA), and startups.",
+      "url": "https://www.rp.edu.sg/soc/full-time-diplomas/details/diploma-in-applied-artificial-intelligence-and-analytics"
+    }
+  ]
+}
